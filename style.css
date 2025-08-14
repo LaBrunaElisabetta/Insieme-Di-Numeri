@@ -43,9 +43,9 @@ button:hover{
 
 .quadrato {
   display: flex;
-  flex-wrap: wrap;              /* permette di andare a capo */
+  flex-wrap: wrap;              /* mi permette di mandare i numeri a capo */
   justify-content: flex-end;    /* allinea tutto a destra */
-  align-content: flex-start;    /* controlla l'allineamento verticale */
+  align-content: flex-start;    /* controlla l'allineamento verticale dei numeri inseriti */
   border: 2px solid #333;
   padding: 10px;
   min-height: 100px;
