@@ -54,3 +54,36 @@ button:hover{
   gap: 10px;                    /* spazio tra i numeri */
 }
 
+#funzioniContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.funzioneBlocco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+}
+
+.funzione {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: rgb(255, 200, 180);
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.risultato {
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
