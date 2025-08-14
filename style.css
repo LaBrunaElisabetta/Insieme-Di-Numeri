@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(255,238,235);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div {
+    margin: 25px;
+}
+
+.riga {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+input {
+    background-color: rgb(233, 233, 233);
+    border-radius: 8px;
+    width: 200px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+input:focus{
+    outline: none;
+    background-color: rgb(219, 219, 219);
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(255,149,128);
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    border-color: rgb(92, 20, 20);
+}
+
+button:hover{
+    background-color: rgb(232, 130, 110);
+    border-color: brown;
+}
+
+.quadrato {
+  display: flex;
+  flex-wrap: wrap;              /* permette di andare a capo */
+  justify-content: flex-end;    /* allinea tutto a destra */
+  align-content: flex-start;    /* controlla l'allineamento verticale */
+  border: 2px solid #333;
+  padding: 10px;
+  min-height: 100px;
+  width: 300px;
+  background-color: #f0f0f0;
+  gap: 10px;                    /* spazio tra i numeri */
+}
+
