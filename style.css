@@ -44,14 +44,13 @@ button:hover{
 .quadrato {
   display: flex;
   flex-wrap: wrap;              /* mi permette di mandare i numeri a capo */
-  justify-content: flex-end;    /* allinea tutto a destra */
+  justify-content: center;    /* allinea tutto al centro */
   align-content: flex-start;    /* controlla l'allineamento verticale dei numeri inseriti */
   border: 2px solid #333;
   padding: 10px;
   min-height: 100px;
   width: 300px;
   background-color: #f0f0f0;
-  gap: 10px;                    /* spazio tra i numeri */
 }
 
 #funzioniContainer {
