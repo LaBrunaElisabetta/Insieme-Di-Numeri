@@ -80,13 +80,6 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("dispariRisultato").textContent = dispari.join(", ");
     });
 
-    refreshBtn.addEventListener("click", () => {
-    numeri = [];
-    quadroNumeri.innerHTML = "";
-    inputContainer.style.display = "block";
-    funzioniContainer.style.display = "none";
-    document.querySelectorAll(".risultato").forEach(div => div.textContent = "");
-    });
 
   
     refreshBtn.addEventListener("click", () => {
