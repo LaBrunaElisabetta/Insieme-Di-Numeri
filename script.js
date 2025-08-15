@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // Seleziono tutti gli elementi HTML necessari
+
     const fattoBottone = document.getElementById("fattoBottone");
     const aggiungiBottone = document.getElementById("aggiungiBottone");
     const input = document.getElementById("input");
@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const inputContainer = document.getElementById("inputContainer");
     const funzioniContainer = document.getElementById("funzioniContainer");
 
-    // Seleziono i bottoni delle funzioni
+    // Bottoni che appargono dopo che l'utente ha finito di scrivere i suoi numeri
     const sommaBtn = document.getElementById("sommaBtn");
     const sottrazioneBtn = document.getElementById("sottrazioneBtn");
     const maggioreBtn = document.getElementById("maggioreBtn");
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     maggioreBtn.addEventListener("click", () => {
-    const max = Math.max(...numeri);
+    const max = Math.max(...numeri);    /* Math.max serve per il singolo numero e non legge gli Array, ma mettendo ...array legge ogni singolo numero all'interno dell'array */ 
     document.getElementById("maggioreRisultato").textContent = max;
     });
 
@@ -81,7 +81,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 
-  
     refreshBtn.addEventListener("click", () => {
         numeri = []; // Svuoto l'array
         quadroNumeri.innerHTML = ""; // Svuoto il quadrato
